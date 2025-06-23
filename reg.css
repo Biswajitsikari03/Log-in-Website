@@ -1,0 +1,57 @@
+body {
+  font-family: Georgia;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fdd;
+}
+.container{
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff0f0;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 2rem;
+}
+.form_group{
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+input[type="number"],
+input[type="date"]{
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.checkbox,
+.gender{
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+button {
+  margin: 25px 135px;
+  width: 30%;
+  padding: 10px;
+  background-color: #d9534f;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 60px;
+}

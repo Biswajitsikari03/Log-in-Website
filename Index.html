@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <div class="head">
+                <h2>Login</h2>
+                <p>Need a Mailchimp Account? <a href="Register.html">Create an account</a></p>   
+            </div>
+            <form name="f1" id="f1" method="post" action="nextpage.php" onsubmit="return check()">
+                <div class="form_group">
+                    <label for="username">Username or Email</label>
+                    <input type="text" id="username" name="username"  required/>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"  required/>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="keep-logged-in" name="keep-logged-in" />
+                    <label for="keep-logged-in">Keep me logged in</label>
+                </div>
+
+                <button type="submit" class="login-btn">Log in</button>
+
+                <div class="links">
+                    <a href="#">Forgot username?</a>
+                    <a href="#">Forgot password?</a><br/>
+                    <a href="#">Can't log in?</a>
+                </div>
+                <script src="script.js"></script>
+            </form>
+    </div>
+</body>
+</html>
